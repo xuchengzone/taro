@@ -52,6 +52,10 @@ declare namespace Taro {
     onReady: string
     onHide: string
     onShow: string
+    
+    shareTicket:string|undefined
+    scene:number|undefined
+
   }
 
   interface Component<P = {}, S = {}, SS = any> extends ComponentLifecycle<P, S, SS> {
